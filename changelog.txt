@@ -1,0 +1,91 @@
+*** PixelPress Changelog ***
+
+2013.01.24 - version 1.4
+ * style.css
+   content-home.php
+   includes/theme-options.php - added option to display post thumbnail in homepage blog section
+ * includes/featured.php - Slide background options now work and image height settings now used to set slide height
+ * css/woocommerce.css - styled rating aggregate in ul.products
+
+2013.01.15 - version 1.3.1
+ * includes/js/portfolio.js - fixed portfolio stacking bug with WP 3.5
+
+2013.01.09 - version 1.3
+ * css/woocommerce.css - WC 2.0 styling
+
+2013.01.02 - version 1.2.2
+ * includes/homepage-shop-panel.php - fixed bug with product prices
+ * css/woocommerce.css - fixed sale flourish position on single product pages
+
+2012.12.19 - version 1.2.1
+ * includes/theme-js.php - use get_template_directory with uniform.js so it doesn't look in the child theme.
+
+2012.12.06 - version 1.2
+* style.css
+  woocommerce.css - Styling preparation for WooCommerce 2.0
+* includes/theme-woocommerce.php - disable WooCommerce lightbox when prettyPhoto is enabled and remove Section Title from single product pages.
+* includes/home-shop-panel - WC_Product class replaced with get_product. Now display the correct thumb
+* style.css - Fixed bug with slider navigation overlapping text and blog post alignment.
+* css/layout.css - Fixed bug with slider navigation overlapping text and blog post alignment.
+
+2012.11.26 - version 1.1.4
+* includes/theme-options.php - Added url field to the featured slider.
+
+2012.11.05 - version 1.1.3
+* includes/widgets/widget-woo-componentbase.php - Fixed naming of the homepage sections.
+* includes/featured.php - Set the touch parameter to false to avoid getting stuck (can't scroll up or down) on IOS devices.
+
+2012.10.10 - version 1.1.2
+ * includes/theme-woocommerce.php
+   css/woocommerce.css - fixed duplicated upsells bug
+
+2012.10.01 - version 1.1.1
+ * /includes/featured.php - Add logic to display slides from only the selected slide group, if one is selected in the theme options.
+ * /includes/general.js - Slider videos are now responsive.
+ * /includes/theme-options.php - Added RSS setting. Add "Slide Group" select box in the "Featured Slider" section.
+ * /includes/theme-functions.php - Register the "slide-page" taxonomy, assigned to the "slide" post type.
+ * /includes/homepage-portfolio.php - Fixed duplicated image in Lightbox mode.
+ * /includes/theme-js.php - Updated HTML5 shim.
+ * style.css - Added styling for blockquotes.
+ * /includes/theme-actions.php - Navigation font size set in Typography settings was getting overridden by size in layout.css
+ * /includes/widgets/widget-woo-componentbase.php - Edited wording in "Blog" option to also include "Page Template".
+
+2012.09.13 - version 1.1.0
+ * Native WooCommerce Support
+ * functions.php - Load WooCommerce functions only if WooCommerce is active.
+ * index.php - Load the shop area section only if WooCommerce is active and if enabled.
+ * /css/woocommerce.css - ADDED - WooCommerce styles.
+ * /css/woocommerce.less - ADDED - WooCommerce styles.
+ * /images/icons/* - ADDED - WooCommerce icons.
+ * /images/ajax-loader.gif - ADDED - WooCommerce AJAX loader graphic.
+ * /includes/theme-woocommerce.php - ADDED - WooCommerce-specific functions.
+ * template-sitemap.php - modified with additional WooCommerce functionality
+
+2012.09.05 - version 1.0.5
+ * loop-portfolio.php - fixed Portfolio title on post type archive page
+ * style.css - fixed broken less styling
+
+2012.08.20 - version 1.0.4
+ * /includes/theme-options.php - Reorganized homepage-related options.
+
+2012.08.06 - version 1.0.3
+ * style.css - Fixed Portfolio alignment issues.
+ * layout.css - Fixed Portfolio alignment issues.
+ * theme-options.php - Removed "Enable Content Area" option. This related to the "Blog" area.
+ * single-portfolio.php - Removed a stray bracket.
+
+2012.07.31 - version 1.0.2
+ * images/ico-subscribe-social.png - Updated Twitter Icon
+ * images/twitter.png - Delete (not used)
+
+2012.07.20 - version 1.0.1
+ * header.php - Added conditional so the slider can be disabled from the Theme Options panel.
+ * images/header-social/delicious.png - *ADDED* icon was missing.
+ * style.less - Numerous CSS fixes to fix overflow issues in the header and with the Feedback and Portfolio sliders.
+ * layout.less - Numerous CSS fixes to fix overflow issues in the header and with the Feedback and Portfolio sliders.
+ * includes/homepage-mini-features.php - Added 'special' class to add some padding when there are more than 3 items.
+ * template-portfolio.php - fixed template name from 'Full Width' to 'Portfolio'.
+ * includes/homepage-blog-alt.php - *ADDED* added alternative blog layout.
+
+2012.07.17 - version 1.0
+ * First release!
