@@ -68,7 +68,7 @@ get_header('shop'); ?>
 					foreach ($product_categories as $key => $cat):
 						if( counter <= 4 ):
 					?>
-							<a href="<?php bloginfo('url'); ?>/dev/shop/<?php echo $cat->slug; ?>/" class="category-more <?php echo 'cat_'.$cat->slug; ?>"><?php echo $cat->name; ?></a>
+							<a href="<?php bloginfo('url'); ?>/shop/<?php echo $cat->slug; ?>/" class="category-more <?php echo 'cat_'.$cat->slug; ?>"><?php echo $cat->name; ?></a>
 					<?php
 						endif;
 						$counter++;

@@ -370,15 +370,15 @@ section.interna .clearfix p {
   display: inline-block;
 }
 section.interna .clearfix p.init {
-   width: 600px;
+   width: 580px;
    margin-bottom: 70px;
-   padding-right: 90px;
+   padding-right: 70px;
 
 }
 section.interna .clearfix p.custom {
    color: #4c95c4;
    font-style: italic;
-   width: 370px;
+   width: 360px;
    position: relative;
 }
 p.custom span {
@@ -589,7 +589,7 @@ footer address {
 
     /* Base Grid */
     .container .one.column,
-    .container .one.columns                     { width: 996px;  }
+    .container .one.columns                     { width: 100%;  }
     .container .two.columns                     { width: 498px; }
     .container .three.columns                   { width: 322px; }
     .container .four.columns                    { width: 240px; }
