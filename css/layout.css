@@ -278,7 +278,7 @@ main.container {
     padding-bottom: 45px;
 }
 section.home nav {
-  width: 250px;
+  width: 230px;
   height: 175px;
   padding-top: 20px;
   padding-left: 20px;
@@ -309,7 +309,7 @@ section.home nav ul li a.navsala {
 
 
 .titdefault {
-  width: 745px;
+  width: 725px;
   float: left;
   padding: 0 15px;
 }
@@ -592,7 +592,7 @@ footer address {
     .container .one.columns                     { width: 996px;  }
     .container .two.columns                     { width: 498px; }
     .container .three.columns                   { width: 322px; }
-    .container .four.columns                    { width: 249px; }
+    .container .four.columns                    { width: 240px; }
     .container .five.columns                    { width: 199px; }
 
 
