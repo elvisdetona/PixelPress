@@ -131,8 +131,8 @@ jQuery(document).ready(function() {
                 
                 		
                 			<h1><?php the_title(); ?></h1>
-                       
-	                        <?php // the_content(); ?>
+                       		<div class="message-page">
+                       			<?php the_content(); ?>
 
 		                    <?php if( isset( $hasError ) || isset( $captchaError ) ) { ?>
 		                        <p class="alert"><?php _e( 'There was an error submitting the form.', 'woothemes' ); ?></p>
@@ -142,6 +142,8 @@ jQuery(document).ready(function() {
 		                        <?php echo do_shortcode( '[box type="alert"]' . __( 'E-mail has not been setup properly. Please add your contact e-mail!', 'woothemes' ) . '[/box]' );  ?>
 		                    <?php } ?>
 
+                       		</div>
+	                        
 
                     <form action="<?php the_permalink(); ?>" id="contactForm" method="post">
 

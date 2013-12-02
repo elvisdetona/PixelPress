@@ -1,14 +1,3 @@
-/*
-* Skeleton V1.2
-* Copyright 2011, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 6/20/2012
-*/
-
-
-
 /* Table of Contents
 ==================================================
     #Base 960 Grid
@@ -505,6 +494,29 @@ section.interna h3 a:focus{
   color: #ffffff;
   background-color: #414141;
   border-radius: 5px;  
+}
+
+/* Onde estamos */
+article.clearfix div.address {
+  width: 400px;
+  text-align: right;
+  float: left;
+  padding-right: 40px;
+  font-weight: 600;
+  }
+
+article.clearfix div.map {
+  background: #ffffff;
+  padding: 5px;
+  -webkit-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.6);
+  -moz-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.6);   
+  box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.6);
+  width: 522px;
+  height: 274px;
+  float: left;
+}
+.message-page {
+  padding: 0 55px;
 }
 
 

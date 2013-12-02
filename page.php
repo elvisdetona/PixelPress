@@ -51,8 +51,22 @@
         </div>
 
             
+        <?php } if ( is_page( 'onde-estamos' )) { ?>
+        <article class="clearfix">
+            <div class="address">
+                 <p>Rua Tagipuru, 235 <br>
+                Barra Funda | 01156-000 <br>
+                São Paulo, SP</p>
+                <p><a href="mailto:falecom@bseducacional.com.br">falecom@bseducacional.com.br</a> ou <br>
+                <a href="mailto:contato@bseducacional.com.br">contato@bseducacional.com.br</a></p>   
+            </div>
             
-
+            <div class="map">
+                <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=R.+Tagipuru,+235+-+Barra+Funda,+S%C3%A3o+Paulo,+01156-000+Conjunto+113&amp;sll=37.0625,-95.677068&amp;sspn=62.829818,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Tagipuru,+235+-+Barra+Funda,+S%C3%A3o+Paulo,+01156-000,+Brazil&amp;ll=-23.529781,-46.664934&amp;spn=0.00905,0.016512&amp;t=m&amp;z=14&amp;output=embed" height="262" width="510" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+            </div>
+        </article>   
+        
+    
         <?php } else { ?>
 
         <article class="one columns">
