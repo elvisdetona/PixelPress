@@ -41,19 +41,19 @@ global $post_id;
 	if ( $products_query->have_posts() ):
 	?>
 		<div class="alternative_nav">
-		<h3>Navegue por aqui</h3>
-		<ul>
-		<?php
-		while ( $products_query->have_posts() ):
-			$products_query->the_post();
+			<h3>Navegue por aqui</h3>
+			<ul>
+			<?php
+			while ( $products_query->have_posts() ):
+				$products_query->the_post();
+			?>
+			<li <?php echo ( $post_id == get_the_ID() ? "class='current-product item-product'" : "class='item-product'" ); ?>>
+				<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+			</li> 
+			<?php
+			endwhile;
 		?>
-		<li <?php echo ( $post_id == get_the_ID() ? "class='current-product item-product'" : "class='item-product'" ); ?>>
-			<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-		</li> 
-		<?php
-		endwhile;
-	?>
-		</ul>
+			</ul>
 		</div>
 	<?php
 	endif;
@@ -61,6 +61,15 @@ global $post_id;
 	?>
 
 	<div class="summary entry-summary">
+		<?php
+			/**
+			 * woocommerce_show_product_images hook
+			 *
+			 * @hooked woocommerce_show_product_sale_flash - 10
+			 * @hooked woocommerce_show_product_images - 20
+			 */
+			do_action( 'woocommerce_before_single_product_summary' );
+		?>
 
 		<?php
 			/**
@@ -75,19 +84,13 @@ global $post_id;
 			 */
 			do_action( 'woocommerce_single_product_summary' );
 		?>
+		
+		<div class="clearfix">
+			<?php do_action( 'woocommerce_after_single_product' ); ?>
+		</div>
+
+		
 		<?php
-			/**
-			 * woocommerce_show_product_images hook
-			 *
-			 * @hooked woocommerce_show_product_sale_flash - 10
-			 * @hooked woocommerce_show_product_images - 20
-			 */
-			do_action( 'woocommerce_before_single_product_summary' );
-		?>
-
-	</div><!-- .summary -->
-
-	<?php
 		/**
 		 * woocommerce_after_single_product_summary hook
 		 *
@@ -95,8 +98,11 @@ global $post_id;
 		 * @hooked woocommerce_output_related_products - 20
 		 */
 		do_action( 'woocommerce_after_single_product_summary' );
-	?>
+		?>
+
+	</div><!-- .summary -->
+
+	
 
 </div><!-- #product-<?php the_ID(); ?> -->
 
-<?php do_action( 'woocommerce_after_single_product' ); ?>

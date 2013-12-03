@@ -422,6 +422,13 @@ section.interna h3 a:focus{
 .woocommerce-ordering {
   display: none;
 }
+.panel.entry-content h2 {
+  font-size: 18px;
+  color:#4c95c4;
+}
+.panel.entry-content p {
+  padding-left: 20px;
+}
 
 /* contato */
 #contactForm {
@@ -489,11 +496,18 @@ section.interna h3 a:focus{
   text-align: center;
   border:none;
   float: right;
+  border-radius: 5px;
+  color: #ffffff;
 }
 .submit {
-  color: #ffffff;
   background-color: #414141;
-  border-radius: 5px;  
+  
+}
+.single_add_to_cart_button {
+  background-color: #ee7900;
+}
+#reviews {
+  display: none;
 }
 
 /* Onde estamos */

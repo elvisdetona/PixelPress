@@ -67,7 +67,42 @@
         </article>   
         
     
+        <?php } if ( is_page( 'tutoriais' )) { ?>
+
+            <div class="alternative_nav">
+                <h3>Navegue por aqui</h3>
+                <ul>
+                
+                    <li class='item-product' class='item-product'>
+                        <a href="#">Nome produto</a>
+                    </li> 
+                </ul>
+                
+                <h3>Veja também</h3>
+                <ul>
+                    <li><a href="#">Loja Online</a></li>
+                    <li><a href="#">Kits Educacionais</a></li>
+                    <li><a href="#">Acessórios para Robôs</a></li>
+                    <li><a href="#">Sensores Atuadores</a></li>
+                    <li><a href="#">Robótica na sala de aula</a></li>
+                </ul>
+
+                <h3>Central de aprendizado</h3>
+                <ul>
+                    <li><a href="#">Fórum</a></li>
+                    <li><a href="#">Tutoriais de Robótica</a></li>
+                    <li><a href="#">Artigos</a></li>
+                </ul>
+
+
+            </div>
+       
+            <?php the_content(); ?>    
+
+
         <?php } else { ?>
+
+
 
         <article class="one columns">
         <?php the_content(); ?>
