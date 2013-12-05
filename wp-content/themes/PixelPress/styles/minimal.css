@@ -1,0 +1,67 @@
+/* Imports */
+body {
+  color: #9e9e9e;
+  background: #f1f1f1;
+}
+a {
+  color: #7aaad1;
+}
+#header-wrap {
+  background: #ffffff;
+}
+#featured {
+  position: relative;
+}
+#featured .slide {
+  padding: 2.618em 0;
+  min-height: 350px;
+  background: #ededf4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ededf4), to(#ffffff));
+  background: -webkit-linear-gradient(#ededf4, #ffffff);
+  background: -moz-linear-gradient(center top, #ededf4 0%, #ffffff 100%);
+  background: -moz-gradient(center top, #ededf4 0%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ededf4,endColorstr=#ffffff);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ededf4, endColorstr=#ffffff)";
+}
+#featured .slide .entry {
+  color: #555;
+  text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.section-title h1 {
+  color: #A0C2DE !important;
+}
+.follow-link a,
+a.button,
+a.woo-sc-button.custom,
+a.comment-reply-link,
+#commentform #submit,
+.submit,
+input[type=submit],
+input.button,
+button.button {
+  border: 1px solid #cbcbd2;
+  background: #cbcbd2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cbcbd2), to(#babac1));
+  background: -webkit-linear-gradient(#cbcbd2, #babac1);
+  background: -moz-linear-gradient(center top, #cbcbd2 0%, #babac1 100%);
+  background: -moz-gradient(center top, #cbcbd2 0%, #babac1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#cbcbd2,endColorstr=#babac1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#cbcbd2, endColorstr=#babac1)";
+}
+.follow-link a:hover,
+a.button:hover,
+a.woo-sc-button.custom:hover,
+a.comment-reply-link:hover,
+#commentform #submit:hover,
+.submit:hover,
+input[type=submit]:hover,
+input.button:hover,
+button.button:hover {
+  background: #ededf4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ededf4), to(#ededf4));
+  background: -webkit-linear-gradient(#ededf4, #ededf4);
+  background: -moz-linear-gradient(center top, #ededf4 0%, #ededf4 100%);
+  background: -moz-gradient(center top, #ededf4 0%, #ededf4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ededf4,endColorstr=#ededf4);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ededf4, endColorstr=#ededf4)";
+}

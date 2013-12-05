@@ -1,0 +1,67 @@
+/* Imports */
+body {
+  color: #9e9e9e;
+  background: #f1f1f1;
+}
+a {
+  color: #599c93;
+}
+#header-wrap {
+  background: #ffffff;
+}
+#featured {
+  position: relative;
+}
+#featured .slide {
+  padding: 2.618em 0;
+  min-height: 350px;
+  background: #2a2c31;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2a2c31), to(#4c4e53));
+  background: -webkit-linear-gradient(#2a2c31, #4c4e53);
+  background: -moz-linear-gradient(center top, #2a2c31 0%, #4c4e53 100%);
+  background: -moz-gradient(center top, #2a2c31 0%, #4c4e53 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2a2c31,endColorstr=#4c4e53);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2a2c31, endColorstr=#4c4e53)";
+}
+#featured .slide .entry {
+  color: #c8dfdc;
+  text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.section-title h1 {
+  color: #68B3AF !important;
+}
+.follow-link a,
+a.button,
+a.woo-sc-button.custom,
+a.comment-reply-link,
+#commentform #submit,
+.submit,
+input[type=submit],
+input.button,
+button.button {
+  border: 1px solid #2a2c31;
+  background: #2a2c31;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2a2c31), to(#3b3d42));
+  background: -webkit-linear-gradient(#2a2c31, #3b3d42);
+  background: -moz-linear-gradient(center top, #2a2c31 0%, #3b3d42 100%);
+  background: -moz-gradient(center top, #2a2c31 0%, #3b3d42 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2a2c31,endColorstr=#3b3d42);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2a2c31, endColorstr=#3b3d42)";
+}
+.follow-link a:hover,
+a.button:hover,
+a.woo-sc-button.custom:hover,
+a.comment-reply-link:hover,
+#commentform #submit:hover,
+.submit:hover,
+input[type=submit]:hover,
+input.button:hover,
+button.button:hover {
+  background: #2a2c31;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2a2c31), to(#2a2c31));
+  background: -webkit-linear-gradient(#2a2c31, #2a2c31);
+  background: -moz-linear-gradient(center top, #2a2c31 0%, #2a2c31 100%);
+  background: -moz-gradient(center top, #2a2c31 0%, #2a2c31 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2a2c31,endColorstr=#2a2c31);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2a2c31, endColorstr=#2a2c31)";
+}
